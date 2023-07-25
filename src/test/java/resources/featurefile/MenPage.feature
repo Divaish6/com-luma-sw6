@@ -1,7 +1,8 @@
+@regression
 Feature: Mens Page Test
   As a user I want to use different features of the Mens Products Page
 
-  @Smoke @Regression
+  @Smoke
   Scenario: Verify user should add product successfully to Shopping Cart
     Given I am on homepage
     When I click on Mens Menu tab

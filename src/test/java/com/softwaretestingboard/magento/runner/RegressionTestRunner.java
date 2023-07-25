@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/resources/featurefile",
-        glue = "com/nopcommerce/demo",
+        glue = "com/softwaretestingboard/magento",
         tags = "@regression",
         plugin = {"pretty", "html:target/cucumber-report/cucumber.html"}
 )

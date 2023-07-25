@@ -1,7 +1,8 @@
+@regression
 Feature: Gear Test
   As a user I want to use different features of the Mens Products Page
 
-  @regression
+ @smoke
   Scenario: Verify if I can add a product to the shopping cart successfully
     Given I hover on the Gear menu and click bags option
     When I click the product named 'Overnight Duffle'
